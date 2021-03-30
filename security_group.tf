@@ -12,6 +12,6 @@ resource "aws_security_group" "allow_https" {
   }
 
   tags = {
-    Name = "allow_http"
+    Name = "allow_https"
   }
 }
